@@ -46,9 +46,10 @@ export default {
   },
   methods: {
     fetchData() {
-      transactionList().then(response => {
-        this.list = response.data.items.slice(0, 8)
-      })
+      // 现在先不获取
+      // transactionList().then(response => {
+      //   this.list = response.data.items.slice(0, 8)
+      // })
     }
   }
 }
